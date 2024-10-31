@@ -31,7 +31,6 @@ weighted avg 0.96 0.96 0.96 114
 
 
 - Confusion Matrix:
-```plaintext
 [[69  2]
  [ 3 40]]
 
