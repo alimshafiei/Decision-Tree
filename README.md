@@ -102,10 +102,9 @@ weighted avg 0.95 0.95 0.95 114
 
 
 - **Confusion Matrix**:
-
-```plaintext
 [[68  3]
  [ 3 40]]
+
 - Conclusion of Feature Engineering
     Although the difference in performance metrics is minimal, the pruned model performs slightly better. However, it’s worth noting that our feature engineering 
     didn’t significantly degrade the model's performance.
