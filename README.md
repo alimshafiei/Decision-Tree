@@ -1,22 +1,22 @@
-Decision Tree on Breast Cancer
-Project Overview
+# Decision Tree on Breast Cancer
+# Project Overview
 This project uses Decision Tree algorithms to classify breast cancer data, improving model performance through techniques like hyperparameter tuning, pruning, and feature engineering.
 
-Preprocessing Data
-Load Dataset
-Instructions to load the dataset using pandas.
+# Preprocessing Data
+- Load Dataset
+- Instructions to load the dataset using pandas.
 
-Understanding Nature and Status of Dataset
-Using value_counts(), set_option, columns.tolist, isnull().sum pandas methods.
+- Understanding Nature and Status of Dataset
+- Using value_counts(), set_option, columns.tolist, isnull().sum pandas methods.
 
-Convert 'Diagnosis' Feature and Splitting Data
-The target variable 'diagnosis' should be converted to binary, then split.
+- Convert 'Diagnosis' Feature and Splitting Data
+  The target variable 'diagnosis' should be converted to binary, then split.
 
-Building the Model
-Applying Class Weights and Training the Decision Tree
-Trained the Decision Tree with class weights.
+# Building the Model
+  Applying Class Weights and Training the Decision Tree
+  Trained the Decision Tree with class weights.
 
-Evaluating the Initial Model
+# Evaluating the Initial Model
 Accuracy: 0.96
 
 Classification Report:
