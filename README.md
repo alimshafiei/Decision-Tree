@@ -30,17 +30,16 @@ plaintext
 weighted avg 0.96 0.96 0.96 114
 
 
-- **Confusion Matrix**:
-
+- Confusion Matrix:
 ```plaintext
 [[69  2]
  [ 3 40]]
 
-First Improving the Model: Hyperparameter Tuning
+# First Improving the Model: Hyperparameter Tuning
 -Define the Hyperparameter Grid
     Specify a range of values for max_depth, min_samples_split, min_samples_leaf, and criterion.
 
--Fit the Model
+Fit the Model
     Fit the GridSearchCV object to the training data.
 
 -Evaluate the Tuned Model
@@ -51,7 +50,7 @@ First Improving the Model: Hyperparameter Tuning
     decrease in recall for malignant cases should be monitored. Overall, the hyperparameter tuning has refined the model, making it more precise in identifying 
     malignant cases.
 
-Second Improving the Model: Pruning
+# Second Improving the Model: Pruning
 - Get the Cost Complexity Pruning Path
 - Evaluate Different ccp_alpha Values
 - Select Best Pruning
@@ -83,7 +82,7 @@ Conclusion of Pruning
     The pruned model shows overall better performance with higher accuracy, precision, recall, and F1-scores. It’s more balanced and robust, making it a valuable tool 
     for medical diagnostics.
 
-Third Improving the Model: Feature Engineering
+# Third Improving the Model: Feature Engineering
 - Understanding Feature Importance
 - Creating New Features Based on Important Features
 - Standardizing Data and Splitting New Data
@@ -112,7 +111,7 @@ weighted avg 0.95 0.95 0.95 114
     Although the difference in performance metrics is minimal, the pruned model performs slightly better. However, it’s worth noting that our feature engineering 
     didn’t significantly degrade the model's performance.
 
-Final Conclusion
+# Final Conclusion
 Our best improving method is pruning, as it has the best results and performance.
 
 I like the Prune method.
