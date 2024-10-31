@@ -44,7 +44,7 @@ Fit the Model
 -Evaluate the Tuned Model
     Use the best parameters to train and evaluate our final model.
 
--Conclusion of Hyperparameter Tuning
+# Conclusion of Hyperparameter Tuning
     While the overall accuracy is unchanged, the precision for malignant cases (Class 1) has improved, which is crucial in medical diagnostics. However, the slight   
     decrease in recall for malignant cases should be monitored. Overall, the hyperparameter tuning has refined the model, making it more precise in identifying 
     malignant cases.
@@ -77,7 +77,7 @@ Confusion Matrix:
     Pruned Model: True Negatives: 69, False Positives: 2, False Negatives: 3, True Positives: 40
     The pruned model has fewer false negatives and more true positives for Malignant cases, further confirming its improved performance.
 
-Conclusion of Pruning
+# Conclusion of Pruning
     The pruned model shows overall better performance with higher accuracy, precision, recall, and F1-scores. It’s more balanced and robust, making it a valuable tool 
     for medical diagnostics.
 
@@ -105,7 +105,7 @@ weighted avg 0.95 0.95 0.95 114
 [[68  3]
  [ 3 40]]
 
-- Conclusion of Feature Engineering
+# Conclusion of Feature Engineering
     Although the difference in performance metrics is minimal, the pruned model performs slightly better. However, it’s worth noting that our feature engineering 
     didn’t significantly degrade the model's performance.
 
