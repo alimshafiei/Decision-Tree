@@ -113,3 +113,9 @@ weighted avg 0.95 0.95 0.95 114
 Our best improving method is pruning, as it has the best results and performance.
 
 I like the Prune method.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## © 2024 Ali M Shafiei. All rights reserved.
+
